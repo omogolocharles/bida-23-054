@@ -1,0 +1,186 @@
+/* Style for the overall navigation bar */
+.navbar-nav {
+    font-family: 'Arial', sans-serif;  /* Choose your desired font here */
+    font-weight: 700; 
+    text-transform: uppercase;
+  }
+  
+  /* Style for individual navigation links */
+  .navbar-nav .nav-item {
+    margin-right: 20px; /* Adjust spacing between links */
+  }
+  
+
+  /* Hover effect on links */
+  .navbar-nav .nav-link:hover {
+    color: #007bff;  /* A nice blue color on hover */
+  }
+  
+/* background image home */
+.bg-home{
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* Background image
+.bg-home:hover {
+    transform: scale(1.05); 
+  }
+
+.bg-home {
+    transition: all 0.3s ease-in-out; 
+
+/*end of background image*/
+
+
+/* button */
+.button-72 {
+    position: absolute; /* Allow absolute positioning within the section */
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%, -0%); /* Precisely center the button */
+  }
+
+.button-72 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-72:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+@media (min-width: 768px) {
+  .button-72 {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+}
+
+.card {
+    transition: all 0.4s ease-in-out; /* Add a smooth transition */
+  }
+  
+  .card-img-top, 
+  .card-text { /* Target both the image and the text */
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.05); 
+  }
+  
+  .card:hover .card-text {
+    transform: scale(1.05); /* Slightly smaller zoom for text */
+  }
+
+  .sect-movie{
+    background-color: #84bbf7;
+    height: 70vh;
+  }
+  
+  .text-container{
+    font-family: "Hind", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-weight: bold;
+      
+  }
+
+  p{
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cardd {
+    width: 100%; /* Make cards take up the column space */
+    margin-bottom: 15px; /* Add space between cards */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .cardd-img-top {
+    height: 300px; /* Adjust as needed */
+    object-fit: cover; /* Ensure image nicely fits the card */
+  }
+  
+  .cardd:hover {
+    transform: scale(1.03); 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+  }
+  
+  /* video*/
+
+  .video-background {
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    overflow: hidden;
+    z-index: -100; /* Place the video behind other content */
+  }
+  
+  .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);  
+  }
+  /* Footer*/
+
+  .footer {
+    background-color: #222; /* Dark background */
+    color: #fff;          /* White text */
+    padding: 20px 0;      /* Add padding */
+    text-align: center;
+  }
+  
+  .social-icons i {
+    display: inline-block;
+    margin: 0 15px;      /* Space between icons */
+  
+  }
+  
+  .social-icons i:hover {
+    color: #00aced;   
+    cursor: pointer;     
+  }
+  
+  .copyright {
+    margin-top: 15px; 
+  }
+  
+
+
