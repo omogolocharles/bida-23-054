@@ -5,6 +5,7 @@
     text-transform: uppercase;
   }
   
+  
   /* Style for individual navigation links */
   .navbar-nav .nav-item {
     margin-right: 20px; /* Adjust spacing between links */
@@ -103,7 +104,7 @@ body{
 
   .sect-movie{
     background-color: #84bbf7;
-    height: 70vh;
+    height: 100%;
   }
   
   .text-container{
@@ -182,5 +183,8 @@ body{
     margin-top: 15px; 
   }
   
+
+ 
+
 
 
